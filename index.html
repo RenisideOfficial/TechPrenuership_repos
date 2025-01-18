@@ -19,21 +19,19 @@
         </div>
 
         <div class="products">
-            <h2 class="products_header"></h2>
-
-            <div class="products_container">
-                <ul class="items"></ul>
-            </div>
+            <h2 class="products_header">Inventory List</h2>
+            <ul id="items"></ul>
         </div>
 
-        <div class="addproduct">
-            <form action="#" class="addproduct_box">
-                <input type="text" placeholder="product name" required>
-                <input type="text" placeholder="product price" required>
-                <input type="text" placeholder="product expiry">
-                <input type="submit" value="ADD PRODUCT" class="sub_btn">
+        <div id="addproduct">
+            <form action="#" id="addproduct_box">
+                <input type="text" placeholder="product name"   id="product_name"   required>
+                <input type="text" placeholder="product price"  id="product_price"  required>
+                <input type="text" placeholder="product expiry" id="product_expiry"  required>
+                <input type="submit" value="ADD PRODUCT" class="product_btn">
             </form>
         </div>
     </section>
 </body>
+    <script src="main.js"></script>
 </html>
